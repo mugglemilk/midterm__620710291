@@ -11,14 +11,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Premium Online',
       theme: ThemeData(
         //colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.indigo,
       ),
       home: const HomePage(),
     );
   }
 }
+
 
 
